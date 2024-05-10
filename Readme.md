@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-- First, you need datasets! You can Get it from [NASA APPEARS](https://appeears.earthdatacloud.nasa.gov/). Remember to a split for validation.
+- First, you need datasets! You can Get it from [NASA APPEARS](https://appeears.earthdatacloud.nasa.gov/) or use this [client](https://github.com/patriciomassaro/nasa_appears_client) . Remember to keep a split for validation.
     -  Dataset must be tiffs files.
 - Once you have the datasets, complete the path in [Train](src/training/train.py)
 - Check the configuration file to define the parameters of the degradation model
