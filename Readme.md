@@ -1,6 +1,6 @@
-# Project Name
+# Multi-image super-resolution for remote sensing
 
-A brief description of your project.
+This project is a PyTorch implementation of [https://arxiv.org/abs/2007.03107](https://arxiv.org/abs/2007.03107), Additionally, a set of pre-processing tools is created to generate a multi-image Low-Resolution dataset from only one High-Resolution image.
 
 ## Table of Contents
 
