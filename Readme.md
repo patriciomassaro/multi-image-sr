@@ -34,8 +34,9 @@ The dataset then:
 
 - Takes an HR input
 - Makes N pixel shifts
-- Degrade the image and reduces the resolution by a factor of X ( The pixel shifts are now subpixel shifts)
-- Yields the $N$ number of images.
+- Degrade the image using a[Degradation Model](src/degradation_model)
+- reduce the resolution by a factor of X ( The pixel shifts are now subpixel shifts)
+- Yield the $N$ number of images.
 
 
 
